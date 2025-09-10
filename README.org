@@ -1,6 +1,6 @@
 #+TITLE: elmpd
 #+DESCRIPTION: A tight, async mpd library in Emacs Lisp
-#+DATE: <2024-09-02 Mon 08:14>
+#+DATE: <2025-09-09 Tue 19:42>
 #+AUTHOR: sp1ff
 #+EMAIL: sp1ff@pobox.com
 #+AUTODATE: t
@@ -49,8 +49,7 @@ sudo make install
 #+END_SRC
 * Getting Started
 
-User documentation is provided with the package, and may also be found
-[[https://unwoundstack.com/doc/elmpd/curr][here]].
+User documentation is provided with the package, and may also be found [[https://unwoundstack.com/doc/elmpd/curr][here]].
 * Motivation & Design Philosphy
 
 [[https://github.com/DamienCassou][Damien Cassou]], the author of [[https://github.com/mpdel/mpdel][mpdel]] and [[https://gitea.petton.fr/mpdel/libmpdel][libmpdel]], [[https://github.com/sp1ff/elmpd/issues/1][reached out]] to ask "Why elmpd?" His question prompted me to clarify my thoughts around this project & I've adapted my response here.
@@ -68,5 +67,7 @@ The package has been stable for a few years now, so as of  September 2024 I'm ca
 #+END_SRC
 
 I've written a separate package, [[https://github.com/mpdmacs][mpdmacs]], that hopefully does so in a generic way.
+
+I gave a [[https://www.youtube.com/watch?v=PxJDsq2apyo][talk]] on this at [[https://emacsconf.org/][EmacsConf]] in 2022.
 
 Comments, suggestions & bug reports welcome in the [[https://github.com/sp1ff/elmpd/issues][issues]] or at sp1ff@pobox.com.
